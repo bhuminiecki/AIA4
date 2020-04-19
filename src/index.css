@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  background-color: #111111;
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button {
+  background-color: rgb(45, 192, 131); /* Green */
+  border: none;
+  color: whitesmoke;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 2px;
+  margin-top: 1px;
+  width: 8em;
+}
+
+.addButton {
+  margin-top: 1em;
+  margin-left: 2.5em;
+  width: 350px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 250px;
+  margin-top: 1px;
+  align-items: flex-start;
+}
+
+.item > *:first-child {
+  float: left;
+}
+
+.modelname {
+  font-weight: 400;
+  font-size: 1.5em;
+  color: rgb(45, 192, 131);
+}
+
+.infoBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.infoBox > * {
+  box-sizing: border-box;
+}
+
+Input {
+  border-radius: 2px;
+  background-color: inherit;
+  color: inherit;
+  border-color: rgb(45, 192, 131);
+  padding-left: 1em;
+}
+
+.infoBox > Input {
+  width: 35%;
+  margin-right: 50%;
+  margin-bottom: 1em;
+}
+
+.infoBox > Label {
+  width: 15%;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.imageEdit {
+  align-self: center;
+  margin-right: 2em;
+  width: 350px;
+}
+
+img {
+  border-radius: 0.5em;
+  margin-right: 2em;
+  width: 350px;
+}
+
+button:hover {
+  background-color: rgb(115, 196, 162);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style: none;
+}
